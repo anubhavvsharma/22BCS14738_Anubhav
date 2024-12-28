@@ -1,0 +1,44 @@
+/* Drone List Styles */
+.drone-card-container {
+  margin-top: 20px;
+}
+
+.drone-card {
+  background-color: #ecf0f1;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  border: 1px solid #bdc3c7;
+}
+
+.drone-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+.drone-card h3 {
+  font-size: 1.8rem;
+  color: #2c3e50;
+  margin-bottom: 15px;
+}
+
+.drone-card p {
+  font-size: 1.1rem;
+  color: #34495e;
+  margin: 8px 0;
+}
+
+.status {
+  font-weight: 600;
+  color: #27ae60;
+}
+
+.status.inactive {
+  color: #e74c3c;
+}
+
+.drone-card .drone-status {
+  font-size: 1rem;
+  margin-top: 10px;
+}
